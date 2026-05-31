@@ -23,7 +23,7 @@ La opción 4 hace todo de un solo clic — ideal para VPS limpio. 🚀
 
 # Instalación 2
 ```
-wget -O install.sh https://raw.githubusercontent.com/rogellevi/sshplus-teu/main/install2.sh && bash install2.sh
+wget -O install2.sh https://raw.githubusercontent.com/rogellevi/sshplus-teu/main/install2.sh && bash install2.sh
 ```
 
 # menú con 7 opciones:
