@@ -5,7 +5,7 @@
 wget -O install.sh https://raw.githubusercontent.com/rogellevi/sshplus-teu/main/install.sh && bash install.sh
 ```
 
-# menú tiene 6 opciones:
+# menú con 6 opciones:
 ```
 [1] Instalar SSHPLUS
 [2] Instalar Panel Web HTTP
@@ -26,7 +26,7 @@ La opción 4 hace todo de un solo clic — ideal para VPS limpio. 🚀
 wget -O install.sh https://raw.githubusercontent.com/rogellevi/sshplus-teu/main/install2.sh && bash install2.sh
 ```
 
-# menú tiene 6 opciones:
+# menú con 7 opciones:
 ```
 [1] Instalar SSHPLUS
 [2] Instalar Panel Web HTTP
