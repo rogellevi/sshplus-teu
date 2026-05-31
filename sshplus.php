@@ -186,7 +186,7 @@ function getUsers() {
 }
 
 function getLimitConn($user) {
-    $file = '/etc/SSHPlus/usuarios.db';
+    $file = '/root/usuarios.db';
     if (!file_exists($file)) return 1;
     $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     foreach ($lines as $line) {
@@ -197,7 +197,7 @@ function getLimitConn($user) {
 }
 
 function saveLimitConn($user, $limit) {
-    $file  = '/etc/SSHPlus/usuarios.db';
+    $file  = '/root/usuarios.db';
     $lines = file_exists($file) ? file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) : [];
     $found = false;
     foreach ($lines as &$line) {
@@ -209,7 +209,7 @@ function saveLimitConn($user, $limit) {
 }
 
 function deleteLimitConn($user) {
-    $file = '/etc/SSHPlus/usuarios.db';
+    $file = '/root/usuarios.db';
     if (!file_exists($file)) return;
     $lines = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
     $lines = array_filter($lines, function($l) use ($user) {
